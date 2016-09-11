@@ -5,7 +5,7 @@ Scotch Box
 
 * Download and Install [Vagrant][3]
 * Download and Install [VirtualBox][4]
-* Clone the Scotch Box [GitHub Repository](https://github.com/scotch-io/scotch-box)
+* Clone the Scotch Box [GitHub Repository](https://github.com/nxthuy/vagrant-box.git)
 * Run ``` vagrant up ```
 * Access Your Project at  [http://192.168.33.10/][14]
 
