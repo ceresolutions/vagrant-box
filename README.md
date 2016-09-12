@@ -1,4 +1,4 @@
-Scotch Box
+[Scotch Box][1]
 ==========
 
 ## Get Started
@@ -80,7 +80,7 @@ Then visit:
 http://192.168.33.10:1080
 ```
 
- [1]: https://github.com/MiniCodeMonkey/Vagrant-LAMP-Stack
+ [1]: https://box.scotch.io/
  [2]: http://scotch.io/tutorials/get-vagrant-up-and-running-in-no-time
  [3]: https://www.vagrantup.com/downloads.html
  [4]: https://www.virtualbox.org/wiki/Downloads
