@@ -3,11 +3,12 @@
 
 ## Get Started
 
+* Download and Install [Git BASH][2] (Windows only)
 * Download and Install [Vagrant][3]
 * Download and Install [VirtualBox][4]
-* Clone the Scotch Box [GitHub Repository](https://github.com/nxthuy/vagrant-box.git)
+* Clone the Vagrant Box [GitHub Repository](https://github.com/nxthuy/vagrant-box.git)
 * Run ``` vagrant up ```
-* Access Your Project at  [http://192.168.33.10/][14]
+* Access Your Project at  [http://192.168.33.10/][5]
 
 ## Basic Vagrant Commands
 
@@ -15,6 +16,11 @@
 ### Start or resume your server
 ```bash
 vagrant up
+```
+
+### SSH into your server
+```bash
+vagrant ssh
 ```
 
 ### Pause your server
@@ -26,12 +32,6 @@ vagrant suspend
 ```bash
 vagrant destroy
 ```
-
-### SSH into your server
-```bash
-vagrant ssh
-```
-
 
 
 ## Database Access
@@ -81,19 +81,7 @@ http://192.168.33.10:1080
 ```
 
  [1]: https://box.scotch.io/
- [2]: http://scotch.io/tutorials/get-vagrant-up-and-running-in-no-time
+ [2]: https://git-scm.com/downloads
  [3]: https://www.vagrantup.com/downloads.html
  [4]: https://www.virtualbox.org/wiki/Downloads
- [5]: http://www.sequelpro.com/
- [6]: http://www.navicat.com/
- [7]: http://github.com/scotch-io
- [8]: http://twitter.com/scotch_io
- [9]: https://github.com/smdahlen/vagrant-hostmanager
- [10]: http://scotch.io/tutorials/sharing-your-virtual-machine-on-the-web-with-vagrant-share
- [11]: http://scotch.io/tutorials/php/getting-started-with-laravel-homestead
- [12]: https://www.vagrantup.com/downloads.html
- [13]: https://www.virtualbox.org/wiki/Downloads
- [14]: http://192.168.33.10/
- [15]: https://github.com/smdahlen/vagrant-hostmanager
- [16]: http://box.scotch.io
- [17]: http://scotch.io/bar-talk/introducing-scotch-box-a-vagrant-lamp-stack-that-just-works
+ [5]: http://192.168.33.10/
