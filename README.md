@@ -59,7 +59,7 @@ vagrant destroy
 - Port: 27017
 
 ### From a Desktop Client
-#### Via SSH
+
 You'll need to download either Sequel Pro or Navicat or some other desktop database client. Switching to one of these from phpMyAdmin will be a life changing experience so just do it already. After this, create a "new connection" and select SSH Forwarding and enter these parameters:
 
 ![alt text] (https://box.scotch.io/database-logins.jpg)
@@ -73,23 +73,6 @@ You'll need to download either Sequel Pro or Navicat or some other desktop datab
 - SSH Host: 192.168.33.10
 - SSH User: vagrant
 - SSH Password: vagrant
-
-#### Directly
-Enable connect from remote
-```
-#vagrant ssh
-vagrant@scotchbox:~$ sudo su
-
-# Edit my.cnf file
-vagrant@scotchbox:~$ vi /etc/mysql/my.cnf
-
-#Add/modify: bind-address	= 0.0.0.0
-#vagrant reload
-```
-- Database User: root
-- Database Password:	root
-- Database Host: 192.168.33.10
-- Databas Port: 3306
 
 ## SSH Access
 
