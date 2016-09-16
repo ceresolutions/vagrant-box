@@ -99,8 +99,8 @@ http://192.168.33.10:1080
 ```
 #vagrant ssh
 vagrant@scotchbox:~$ sudo su
-vagrant@scotchbox:~$ a2enmod rewrite
-vagrant@scotchbox:~$ a2enmod ssl
+root@scotchbox:/home/vagrant# a2enmod rewrite
+root@scotchbox:/home/vagrant# a2enmod ssl
 ```
 
 ## Clone project source
@@ -138,11 +138,11 @@ Copy edited config file to apache sites-available dir
 
 #copy
 vagrant@scotchbox:~$ sudo su
-vagrant@scotchbox:~$ cp /var/www/new_project.conf /etc/apache2/sites-available/new_project.conf
+root@scotchbox:/home/vagrant# cp /var/www/new_project.conf /etc/apache2/sites-available/new_project.conf
 
 #enable virtual host
-vagrant@scotchbox:~$ a2ensite new_project
-vagrant@scotchbox:~$ service apache2 restart
+root@scotchbox:/home/vagrant# a2ensite new_project
+root@scotchbox:/home/vagrant# service apache2 restart
 ```
 
 Update file host in real machine
