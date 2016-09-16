@@ -103,6 +103,13 @@ vagrant@scotchbox:~$ a2enmod rewrite
 vagrant@scotchbox:~$ a2enmod ssl
 ```
 
+## Clone project source
+```
+#git-bash
+cd public/
+git clone ....
+```
+
 ## Config VirtualHost
 Clone file virtual_host_config.conf (virtual_host_config_ssl.conf for SSL)
 ```
