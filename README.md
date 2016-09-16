@@ -60,7 +60,7 @@ vagrant destroy
 
 ### From a Desktop Client
 
-You'll need to download either Sequel Pro or Navicat or some other desktop database client. Switching to one of these from phpMyAdmin will be a life changing experience so just do it already. After this, create a "new connection" and select SSH Forwarding and enter these parameters:
+You'll need to download either [Sequel Pro] (http://www.sequelpro.com/) or [Navicat] (http://www.navicat.com/) or some other desktop database client. Switching to one of these from phpMyAdmin will be a life changing experience so just do it already. After this, create a "new connection" and select SSH Forwarding and enter these parameters:
 
 ![alt text] (https://box.scotch.io/database-logins.jpg)
 
