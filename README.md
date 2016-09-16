@@ -6,7 +6,7 @@
 * Download and Install [Git BASH][2] (Windows only)
 * Download and Install [Vagrant][3]
 * Download and Install [VirtualBox][4]
-* Clone the Vagrant Box [GitHub Repository](https://github.com/nxthuy/vagrant-box.git)
+* Clone the Vagrant Box [GitHub Repository](https://github.com/ceresolutions/vagrant-box.git)
 * Run ``` vagrant up ```
 * Access Your Project at  [http://192.168.33.10/][5]
 
@@ -152,7 +152,8 @@ Update file host in real machine
 192.168.33.10 uc.dev www.uc.dev abc.uc.dev
 ```
 
-
+==========
+For more details please visit https://box.scotch.io/
 
  [1]: https://box.scotch.io/
  [2]: https://git-scm.com/downloads
