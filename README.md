@@ -76,9 +76,17 @@ You'll need to download either [Sequel Pro] (http://www.sequelpro.com/) or [Navi
 
 ## SSH Access
 
-- Hostname: 127.0.0.1:2222
+- Hostname: 192.168.33.10
+- Port: 22
 - Username: vagrant
 - Password: vagrant
+
+```
+#connect in cli
+ssh vagrant@192.168.33.10
+
+#vagrant@192.168.33.10's password: vagrant
+```
 
 ## Mailcatcher
 
