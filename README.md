@@ -133,6 +133,8 @@ Edit new_project.conf to concide with project
 </VirtualHost>
 ```
 Copy edited config file to apache sites-available dir
+
+*Do not remove edited config file. It can be used again for new vagrant-box (in case having problems with current box)*
 ```
 #vagrant ssh
 
