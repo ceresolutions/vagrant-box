@@ -114,10 +114,10 @@ Edit new_project.conf to concide with project
         ServerAdmin admin@uc.dev #admin email
         ServerName uc.dev #domain name
         ServerAlias www.uc.dev abc.uc.dev
-        DocumentRoot /projects/ultracrm/trunk/public #absolute path of project dir
+        DocumentRoot /var/www/public/trunk/public #absolute path of project dir
         ErrorLog ${APACHE_LOG_DIR}/ultracrm.dev_error.log
         CustomLog ${APACHE_LOG_DIR}/ultracrm.dev__access.log combined
-        <Directory /projects/ultracrm/trunk/public> #absolute path of project dir
+        <Directory /var/www/public/ultracrm/trunk/public> #absolute path of project dir
                 Options Indexes FollowSymLinks
                 AllowOverride All
                Require all granted
