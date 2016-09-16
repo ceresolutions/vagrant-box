@@ -159,6 +159,28 @@ Update file host in real machine
 ```
 192.168.33.10 uc.dev www.uc.dev abc.uc.dev
 ```
+==========
+## Advanced
+
+```
+# vagrant ssh
+
+vagrant@scotchbox:~$ cp /var/www/create_swap.sh /home/vagrant/create_swap.sh
+vagrant@scotchbox:~$ chmod 775 create_swap.sh
+vagrant@scotchbox:~$ crontab -e
+
+# Add below lines to the end of the editor
+
+# Auto start Mailcatcher
+@reboot /home/vagrant/.rbenv/shims/mailcatcher --http-ip=0.0.0.0
+
+# Auto update time server
+@reboot sudo /etc/init.d/ntp restart
+@reboot sudo /usr/sbin/ntpdate pool.ntp.org
+
+# Fix swap memory issue (file create_swap.sh is required)
+@reboot sudo /home/vagrant/create_swap.sh
+```
 
 ==========
 For more details please visit https://box.scotch.io/
