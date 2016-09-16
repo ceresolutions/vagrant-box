@@ -121,9 +121,9 @@ vagrant@scotchbox:~$ a2enmod ssl
 ```
 
 ## Config VirtualHost
-Clone file apc_site_config_example.conf
+Clone file virtual_host_config.conf (virtual_host_config_ssl.conf for SSL)
 ```
-cp apc_site_config_example.conf new_project.conf
+cp virtual_host_config.conf new_project.conf
 ```
 Edit new_project.conf to concide with project
 ```
